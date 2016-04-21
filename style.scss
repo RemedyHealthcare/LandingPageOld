@@ -1,0 +1,148 @@
+$gradient-purple: #B7A7E8;
+$gradient-dark-purple: #A595F8;
+$grey-100: #F5F5F5;
+$brand-purple: #816ECC;
+$brand-lilac: #E6D6FB;
+
+$light: 100;
+$bold: 600;
+$normal: 400;
+
+$grey-900: #2B2B2B;
+
+$title-font-size: 2.6rem;
+$title-font-size-sm: 1.3rem;
+$title-font-size-lg: 2.6rem;
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	font-family: "Avenir Next", sans-serif;
+	font-size: 14px;
+	overflow-x: hidden; /* TODO */
+	-webkit-font-smoothing: antialiased;
+	text-rendering: optimizeLegibility;
+}
+
+img {
+	width: 100%;
+}
+
+section {
+	width: 100vw;
+	height: 80vh;
+	position: relative;
+	top:0;
+	left:0;
+}
+
+p {
+	text-align: left;
+	margin-left: 25px;
+	line-height: 1.7rem;
+	font-size: 1.1rem;
+}
+
+.section--intro {
+    background: linear-gradient(to left bottom, $gradient-purple, $gradient-dark-purple); 
+    color: $grey-100;
+}
+
+.section--product {
+	background-color: $grey-100;
+	color: $grey-900;
+}
+
+.section--team {
+	background-color: $brand-purple;
+	color: $grey-100;
+	height: 120vh;
+}
+
+.section--footer {
+	background-color: $grey-100;
+	color: $grey-900;
+}
+
+.content {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	text-align: center;
+}
+
+.flex {
+	display: flex;
+	align-items: center;
+	width: 66vw;
+}
+
+.flex--team {
+	align-items: flex-start;
+	width: 75vw;
+}
+
+.flex__item {
+	margin: 0px 25px;
+}
+
+.flex__item--team {
+	width: 33%;
+}
+
+.logo {
+	width: 30vw;
+	margin: auto;
+}
+
+.tagline {
+	font-size: $title-font-size;
+	margin: 15px auto;
+	font-weight: $light;
+}
+
+.title {
+	font-size: $title-font-size;
+	margin: 0px auto 50px auto;
+	font-weight: $light;
+}
+
+.headshot {
+	border-radius: 100%;
+	border: 5px solid $brand-lilac;
+	width: 10vw;
+	margin: auto;
+}
+
+.name {
+	font-size: $title-font-size-sm;
+	text-align: center;
+	padding: 15px 0px;
+}
+
+.bio {
+	text-align: left;
+}
+
+.contact {
+	color: $brand-purple;
+	font-weight: $bold;
+	font-size: $title-font-size-lg;
+}
+
+.cross {
+	position: absolute;
+	bottom: -40vw;
+	left: -10vw;
+	width: 80vw;
+	opacity: 0.7;
+}
+
+.bandaid {
+	width: 25vw;
+}
