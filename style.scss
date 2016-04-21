@@ -78,12 +78,15 @@ p {
 
 .flex {
 	display: flex;
+	display: -webkit-flex;
 	align-items: center;
+	-webkit-align-items: center;
 	width: 66vw;
 }
 
 .flex--team {
 	align-items: flex-start;
+	-webkit-align-items: flex-start;
 	width: 75vw;
 }
 
