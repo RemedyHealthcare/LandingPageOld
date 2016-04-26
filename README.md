@@ -14,6 +14,8 @@ style.css: output from compiling sass (changes will not be saved)
 
 index.php: one line of PHP to aid in deployment to Heroku
 
-### Host
+### Hosting
 
-Currently splash page is hosted on Heroku at remedyapp.herokuapp.com by Jessica. If any changes are pushed, please send pull request so the Jessica can update the host accordingly.
+Previously splash page was hosted on Heroku at remedyapp.herokuapp.com by Jessica.
+
+Now landing page is hosted on AWS S3 and CloudFront by Nikhil. If you have changes that need to be redeployed, file a pull request.
